@@ -12,6 +12,10 @@
 		845B5C6C1CE47A06007E3061 /* JXSpeechCode.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 845B5C6B1CE47A06007E3061 /* JXSpeechCode.xcscheme */; };
 		845B5C6F1CE47A06007E3061 /* JXSpeechCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B5C6E1CE47A06007E3061 /* JXSpeechCode.m */; };
 		845B5C721CE47A06007E3061 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B5C711CE47A06007E3061 /* NSObject_Extension.m */; };
+		845B5C851CE481FB007E3061 /* DVTSourceTextView+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B5C7B1CE481FB007E3061 /* DVTSourceTextView+Hook.m */; };
+		845B5C861CE481FB007E3061 /* NSString+JXRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B5C7F1CE481FB007E3061 /* NSString+JXRegular.m */; };
+		845B5C871CE481FB007E3061 /* JXSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B5C821CE481FB007E3061 /* JXSpeech.m */; };
+		845B5C8C1CE485C2007E3061 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845B5C8B1CE485C2007E3061 /* DVTKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,15 @@
 		845B5C701CE47A06007E3061 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 		845B5C711CE47A06007E3061 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		845B5C731CE47A06007E3061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845B5C7A1CE481FB007E3061 /* DVTSourceTextView+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceTextView+Hook.h"; sourceTree = "<group>"; };
+		845B5C7B1CE481FB007E3061 /* DVTSourceTextView+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceTextView+Hook.m"; sourceTree = "<group>"; };
+		845B5C7C1CE481FB007E3061 /* DVTSourceTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTSourceTextView.h; path = ../CoreData/DVTSourceTextView.h; sourceTree = "<group>"; };
+		845B5C7E1CE481FB007E3061 /* NSString+JXRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JXRegular.h"; sourceTree = "<group>"; };
+		845B5C7F1CE481FB007E3061 /* NSString+JXRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JXRegular.m"; sourceTree = "<group>"; };
+		845B5C811CE481FB007E3061 /* JXSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSpeech.h; sourceTree = "<group>"; };
+		845B5C821CE481FB007E3061 /* JXSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSpeech.m; sourceTree = "<group>"; };
+		845B5C841CE481FB007E3061 /* DVTCompletingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCompletingTextView.h; sourceTree = "<group>"; };
+		845B5C8B1CE485C2007E3061 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			files = (
 				845B5C661CE47A06007E3061 /* AppKit.framework in Frameworks */,
 				845B5C681CE47A06007E3061 /* Foundation.framework in Frameworks */,
+				845B5C8C1CE485C2007E3061 /* DVTKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,7 @@
 		845B5C641CE47A06007E3061 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				845B5C8B1CE485C2007E3061 /* DVTKit.framework */,
 				845B5C651CE47A06007E3061 /* AppKit.framework */,
 				845B5C671CE47A06007E3061 /* Foundation.framework */,
 			);
@@ -68,6 +83,10 @@
 		845B5C691CE47A06007E3061 /* JXSpeechCode */ = {
 			isa = PBXGroup;
 			children = (
+				845B5C791CE481FB007E3061 /* CoreData */,
+				845B5C7D1CE481FB007E3061 /* external */,
+				845B5C801CE481FB007E3061 /* Helpers */,
+				845B5C831CE481FB007E3061 /* PrivateClass */,
 				845B5C6D1CE47A06007E3061 /* JXSpeechCode.h */,
 				845B5C6E1CE47A06007E3061 /* JXSpeechCode.m */,
 				845B5C701CE47A06007E3061 /* NSObject_Extension.h */,
@@ -84,6 +103,42 @@
 				845B5C6B1CE47A06007E3061 /* JXSpeechCode.xcscheme */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845B5C791CE481FB007E3061 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				845B5C7A1CE481FB007E3061 /* DVTSourceTextView+Hook.h */,
+				845B5C7B1CE481FB007E3061 /* DVTSourceTextView+Hook.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		845B5C7D1CE481FB007E3061 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				845B5C7E1CE481FB007E3061 /* NSString+JXRegular.h */,
+				845B5C7F1CE481FB007E3061 /* NSString+JXRegular.m */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		845B5C801CE481FB007E3061 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				845B5C811CE481FB007E3061 /* JXSpeech.h */,
+				845B5C821CE481FB007E3061 /* JXSpeech.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		845B5C831CE481FB007E3061 /* PrivateClass */ = {
+			isa = PBXGroup;
+			children = (
+				845B5C7C1CE481FB007E3061 /* DVTSourceTextView.h */,
+				845B5C841CE481FB007E3061 /* DVTCompletingTextView.h */,
+			);
+			path = PrivateClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +210,9 @@
 			files = (
 				845B5C6F1CE47A06007E3061 /* JXSpeechCode.m in Sources */,
 				845B5C721CE47A06007E3061 /* NSObject_Extension.m in Sources */,
+				845B5C861CE481FB007E3061 /* NSString+JXRegular.m in Sources */,
+				845B5C851CE481FB007E3061 /* DVTSourceTextView+Hook.m in Sources */,
+				845B5C871CE481FB007E3061 /* JXSpeech.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +300,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JXSpeechCode/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -257,6 +319,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JXSpeechCode/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
