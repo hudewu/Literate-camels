@@ -7,7 +7,7 @@
 
 
 @class DVTFoldingLayoutManager, DVTFoldingManager, DVTSourceCodeLanguage, DVTTextCompletionController, DVTTextCompletionDataSource, NSColor;
-
+  
 @interface DVTCompletingTextView : NSTextView
 {
     DVTTextCompletionController *_completionController;

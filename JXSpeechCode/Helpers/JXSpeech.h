@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+   
 @interface JXSpeech : NSObject
 @property(nonatomic,assign,readonly)BOOL isSpeaking;
 @property(nonatomic,assign)NSInteger speakGrade;

@@ -15,7 +15,7 @@
 @property (nonatomic, strong, readwrite) NSBundle *bundle;
 
 @end
-
+  
 @implementation JXSpeechCode
 {
     NSMenuItem *selecteMenuItem;

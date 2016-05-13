@@ -8,7 +8,7 @@
 
 #import "JXSpeech.h"
 #import <AppKit/AppKit.h>
-
+   
 @interface JXSpeech()<NSSpeechSynthesizerDelegate>
 
 @end

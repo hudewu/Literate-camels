@@ -13,7 +13,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "DVTCompletingTextView.h"
-
+  
 
 @class DVTAnnotationManager, DVTHashTable, DVTMutableRangeArray, DVTObservingToken, DVTTextAnnotationIndicatorAnimation, DVTTextDocumentLocation, DVTTextPageGuideVisualization, NSAnimation, NSArray, NSColor, NSDictionary, NSMutableArray, NSString, NSTimer, NSView, NSWindow,DVTCompletingTextView;
 

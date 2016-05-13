@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 #import "NSString+JXRegular.h"
 #import "JXSpeech.h"
-
+  
 static NSSpeechSynthesizer * speech;
 @implementation DVTSourceTextView (Hook)
 

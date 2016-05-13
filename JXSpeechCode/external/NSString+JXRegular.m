@@ -7,7 +7,7 @@
 //
 
 #import "NSString+JXRegular.h"
-
+   
 @implementation NSString (JXRegular)
 
 

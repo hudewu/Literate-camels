@@ -9,7 +9,7 @@
 
 #import "NSObject_Extension.h"
 #import "JXSpeechCode.h"
-
+  
 @implementation NSObject (Xcode_Plugin_Template_Extension)
 
 + (void)pluginDidLoad:(NSBundle *)plugin

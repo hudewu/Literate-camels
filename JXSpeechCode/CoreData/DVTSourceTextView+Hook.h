@@ -8,7 +8,7 @@
 
 #import "DVTSourceTextView.h"
 @interface DVTSourceTextView (Hook)
-
+  
 @property(nonatomic,strong)NSSpeechSynthesizer * speech;
 - (void)jx_selectFirstPlaceholderInCharacterRange:(struct _NSRange)arg1;
 

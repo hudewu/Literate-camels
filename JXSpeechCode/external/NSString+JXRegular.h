@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+  
 ///wssss
 #define JX_EMAIL            @"^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$"//邮箱
 #define JX_CHINESE          @"^[\u4e00-\u9fa5]{0,}$"//中文
