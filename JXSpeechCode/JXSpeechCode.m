@@ -20,7 +20,7 @@
 {
     NSMenuItem *selecteMenuItem;
 }
-
+  
 + (instancetype)sharedPlugin
 {
     return sharedPlugin;
